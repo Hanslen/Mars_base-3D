@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <!--<ClCompile Include="Code\Car.cpp" />-->
+    <ClCompile Include="Code\BaseBuilding.cpp" />
+    <ClCompile Include="Code\DisposeOil.cpp" />
+    <ClCompile Include="Code\HeadLight.cpp" />
+    <ClCompile Include="Code\LightHouse.cpp" />
+    <ClCompile Include="Code\main.cpp" />
+    <ClCompile Include="Code\MyScene.cpp" />
+    <ClCompile Include="Code\OilTank.cpp" />
+    <ClCompile Include="Code\Plane.cpp" />
+    <ClCompile Include="Code\Skybox.cpp" />
+    <!--<ClCompile Include="Code\Sun.cpp" />-->
+    <ClCompile Include="Code\SolarPanel.cpp" />
+    <ClCompile Include="Code\SpaceShip.cpp" />
+    <ClCompile Include="Code\Water.cpp" />
+    <ClCompile Include="Code\WorkingCar.cpp" />
+    <ClCompile Include="Framework\Engine\Engine.cpp" />
+    <ClCompile Include="Framework\Engine\Scene.cpp" />
+    <ClCompile Include="Framework\Utility\Camera.cpp" />
+    <ClCompile Include="Framework\Utility\Texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--<ClInclude Include="Code\Car.h" />-->
+    <ClInclude Include="Code\BaseBuilding.hpp" />
+    <ClInclude Include="Code\DisposeOil.hpp" />
+    <ClInclude Include="Code\HeadLight.hpp" />
+    <ClInclude Include="Code\LightHouse.hpp" />
+    <ClInclude Include="Code\MyScene.h" />
+    <ClInclude Include="Code\OilTank.hpp" />
+    <ClInclude Include="Code\Plane.hpp" />
+    <ClInclude Include="Code\Skybox.h" />
+    <!--<ClInclude Include="Code\Sun.h" />-->
+    <ClInclude Include="Code\SolarPanel.hpp" />
+    <ClInclude Include="Code\SpaceShip.hpp" />
+    <ClInclude Include="Code\Water.h" />
+    <ClInclude Include="Code\WorkingCar.h" />
+    <ClInclude Include="Framework\Engine\Engine.h" />
+    <ClInclude Include="Framework\Engine\Scene.h" />
+    <ClInclude Include="Framework\Interface\Animation.h" />
+    <ClInclude Include="Framework\Interface\DisplayableObject.h" />
+    <ClInclude Include="Framework\Interface\Input.h" />
+    <ClInclude Include="Framework\Utility\Camera.h" />
+    <ClInclude Include="Framework\Utility\Texture.h" />
+    <ClInclude Include="Framework\Utility\VectorMath.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="documentation\html\arrowdown.png" />
+    <Image Include="documentation\html\arrowright.png" />
+    <Image Include="documentation\html\bc_s.png" />
+    <Image Include="documentation\html\bdwn.png" />
+    <Image Include="documentation\html\class_camera.png" />
+    <Image Include="documentation\html\class_engine.png" />
+    <Image Include="documentation\html\class_input.png" />
+    <Image Include="documentation\html\class_my_scene.png" />
+    <Image Include="documentation\html\class_scene.png" />
+    <Image Include="documentation\html\closed.png" />
+    <Image Include="documentation\html\doc.png" />
+    <Image Include="documentation\html\doxygen.png" />
+    <Image Include="documentation\html\folderclosed.png" />
+    <Image Include="documentation\html\folderopen.png" />
+    <Image Include="documentation\html\nav_f.png" />
+    <Image Include="documentation\html\nav_g.png" />
+    <Image Include="documentation\html\nav_h.png" />
+    <Image Include="documentation\html\open.png" />
+    <Image Include="documentation\html\splitbar.png" />
+    <Image Include="documentation\html\sync_off.png" />
+    <Image Include="documentation\html\sync_on.png" />
+    <Image Include="documentation\html\tab_a.png" />
+    <Image Include="documentation\html\tab_b.png" />
+    <Image Include="documentation\html\tab_h.png" />
+    <Image Include="documentation\html\tab_s.png" />
+    <Image Include="Textures\camera.bmp" />
+    <Image Include="Textures\chickenSkin.bmp" />
+    <Image Include="Textures\grass.bmp" />
+    <Image Include="Textures\oil.bmp" />
+    <Image Include="Textures\oilTank.bmp" />
+    <Image Include="Textures\OilTankBody.bmp" />
+    <Image Include="Textures\plane.bmp" />
+    <Image Include="Textures\red_bk.bmp" />
+    <Image Include="Textures\red_dn.bmp" />
+    <Image Include="Textures\red_ft.bmp" />
+    <Image Include="Textures\red_lf.bmp" />
+    <Image Include="Textures\red_rt.bmp" />
+    <Image Include="Textures\red_up.bmp" />
+    <Image Include="Textures\solarPanel.bmp" />
+    <Image Include="Textures\spaceShip.bmp" />
+    <Image Include="Textures\spaceShip2.bmp" />
+    <Image Include="Textures\truckFront.bmp" />
+    <Image Include="Textures\truckSide.bmp" />
+    <Image Include="Textures\truckSide2.bmp" />
+    <Image Include="Textures\water.bmp" />
+    <Image Include="Textures\wheel.bmp" />
+    <Image Include="Textures\wheelR.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Debug\G53GRA.Framework.Build.CppClean.log" />
+    <Text Include="Debug\G53GRA.Framework.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\G53GRA.Framework.tlog\cl.command.1.tlog" />
+    <None Include="Debug\G53GRA.Framework.tlog\CL.read.1.tlog" />
+    <None Include="Debug\G53GRA.Framework.tlog\CL.write.1.tlog" />
+    <None Include="Debug\G53GRA.Framework.tlog\G53GRA.Framework.lastbuildstate" />
+    <None Include="Debug\G53GRA.Framework.tlog\unsuccessfulbuild" />
+    <None Include="Debug\vc120.idb" />
+    <None Include="Debug\vc120.pdb" />
+    <None Include="documentation\framework.html" />
+    <None Include="documentation\html\annotated.html" />
+    <None Include="documentation\html\classes.html" />
+    <None Include="documentation\html\class_animation-members.html" />
+    <None Include="documentation\html\class_animation.html" />
+    <None Include="documentation\html\class_camera-members.html" />
+    <None Include="documentation\html\class_camera.html" />
+    <None Include="documentation\html\class_displayable_object-members.html" />
+    <None Include="documentation\html\class_displayable_object.html" />
+    <None Include="documentation\html\class_engine-members.html" />
+    <None Include="documentation\html\class_engine.html" />
+    <None Include="documentation\html\class_input-members.html" />
+    <None Include="documentation\html\class_input.html" />
+    <None Include="documentation\html\class_my_scene-members.html" />
+    <None Include="documentation\html\class_my_scene.html" />
+    <None Include="documentation\html\class_scene-members.html" />
+    <None Include="documentation\html\class_scene.html" />
+    <None Include="documentation\html\class_texture-members.html" />
+    <None Include="documentation\html\class_texture.html" />
+    <None Include="documentation\html\dir_23fdee2f6995db16c755697cdf620cf4.html" />
+    <None Include="documentation\html\dir_8995d5bc03aec6e41ef380017ab0420b.html" />
+    <None Include="documentation\html\dir_bcbb2cf9a3d3d83e5515c82071a07177.html" />
+    <None Include="documentation\html\dir_cb221240da1b013652480fa4f73e3b8c.html" />
+    <None Include="documentation\html\dir_d77d23160fc50a96b69c3bb84703908b.html" />
+    <None Include="documentation\html\doxygen.css" />
+    <None Include="documentation\html\dynsections.js" />
+    <None Include="documentation\html\files.html" />
+    <None Include="documentation\html\functions.html" />
+    <None Include="documentation\html\functions_func.html" />
+    <None Include="documentation\html\functions_vars.html" />
+    <None Include="documentation\html\hierarchy.html" />
+    <None Include="documentation\html\index.html" />
+    <None Include="documentation\html\jquery.js" />
+    <None Include="documentation\html\structtag_b_i_t_m_a_p_f_i_l_e_h_e_a_d_e_r-members.html" />
+    <None Include="documentation\html\structtag_b_i_t_m_a_p_f_i_l_e_h_e_a_d_e_r.html" />
+    <None Include="documentation\html\structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r-members.html" />
+    <None Include="documentation\html\structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r.html" />
+    <None Include="documentation\html\tabs.css" />
+    <None Include="documentation\html\_animation_8h_source.html" />
+    <None Include="documentation\html\_camera_8h_source.html" />
+    <None Include="documentation\html\_displayable_object_8h_source.html" />
+    <None Include="documentation\html\_engine_8h_source.html" />
+    <None Include="documentation\html\_input_8h_source.html" />
+    <None Include="documentation\html\_my_scene_8h_source.html" />
+    <None Include="documentation\html\_scene_8h_source.html" />
+    <None Include="documentation\html\_texture_8h_source.html" />
+    <None Include="documentation\html\_vector_math_8h_source.html" />
+    <None Include="G53GRA.Framework.doxyfile" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CE3A8304-475E-425E-BA11-FDAA6293C905}</ProjectGuid>
+    <RootNamespace>G53GRAFramework</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\Framework;.\Code;.\Code\Demos;.\Framework\Utility;.\Framework\Interface;.\Framework\Engine;../freeglut/include</AdditionalIncludeDirectories>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../freeglut/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

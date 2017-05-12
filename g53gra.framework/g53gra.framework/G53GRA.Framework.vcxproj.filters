@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Engine\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Engine\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Utility\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Utility\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\MyScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\BaseBuilding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DisposeOil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\HeadLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\LightHouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\OilTank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SolarPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SpaceShip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\WorkingCar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\Engine\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Engine\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Interface\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Interface\DisplayableObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Interface\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\VectorMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\MyScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\BaseBuilding.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DisposeOil.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\HeadLight.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\LightHouse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\OilTank.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Plane.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SolarPanel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SpaceShip.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\WorkingCar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\camera.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\chickenSkin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\grass.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\oil.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\oilTank.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\OilTankBody.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\plane.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\red_bk.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\red_dn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\red_ft.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\red_lf.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\red_rt.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\red_up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\solarPanel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\spaceShip.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\spaceShip2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\truckFront.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\truckSide.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\truckSide2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\water.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\wheel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\wheelR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\arrowdown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\arrowright.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\bc_s.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\bdwn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\class_camera.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\class_engine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\class_input.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\class_my_scene.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\class_scene.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\closed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\doc.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\doxygen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\folderclosed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\folderopen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\nav_f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\nav_g.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\nav_h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\open.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\splitbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\sync_off.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\sync_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\tab_a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\tab_b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\tab_h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="documentation\html\tab_s.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Debug\G53GRA.Framework.Build.CppClean.log" />
+    <Text Include="Debug\G53GRA.Framework.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\vc120.idb" />
+    <None Include="Debug\vc120.pdb" />
+    <None Include="Debug\G53GRA.Framework.tlog\cl.command.1.tlog" />
+    <None Include="Debug\G53GRA.Framework.tlog\CL.read.1.tlog" />
+    <None Include="Debug\G53GRA.Framework.tlog\CL.write.1.tlog" />
+    <None Include="Debug\G53GRA.Framework.tlog\G53GRA.Framework.lastbuildstate" />
+    <None Include="Debug\G53GRA.Framework.tlog\unsuccessfulbuild" />
+    <None Include="documentation\html\_animation_8h_source.html" />
+    <None Include="documentation\html\_camera_8h_source.html" />
+    <None Include="documentation\html\_displayable_object_8h_source.html" />
+    <None Include="documentation\html\_engine_8h_source.html" />
+    <None Include="documentation\html\_input_8h_source.html" />
+    <None Include="documentation\html\_my_scene_8h_source.html" />
+    <None Include="documentation\html\_scene_8h_source.html" />
+    <None Include="documentation\html\_texture_8h_source.html" />
+    <None Include="documentation\html\_vector_math_8h_source.html" />
+    <None Include="documentation\html\annotated.html" />
+    <None Include="documentation\html\class_animation.html" />
+    <None Include="documentation\html\class_animation-members.html" />
+    <None Include="documentation\html\class_camera.html" />
+    <None Include="documentation\html\class_camera-members.html" />
+    <None Include="documentation\html\class_displayable_object.html" />
+    <None Include="documentation\html\class_displayable_object-members.html" />
+    <None Include="documentation\html\class_engine.html" />
+    <None Include="documentation\html\class_engine-members.html" />
+    <None Include="documentation\html\class_input.html" />
+    <None Include="documentation\html\class_input-members.html" />
+    <None Include="documentation\html\class_my_scene.html" />
+    <None Include="documentation\html\class_my_scene-members.html" />
+    <None Include="documentation\html\class_scene.html" />
+    <None Include="documentation\html\class_scene-members.html" />
+    <None Include="documentation\html\class_texture.html" />
+    <None Include="documentation\html\class_texture-members.html" />
+    <None Include="documentation\html\classes.html" />
+    <None Include="documentation\html\dir_23fdee2f6995db16c755697cdf620cf4.html" />
+    <None Include="documentation\html\dir_8995d5bc03aec6e41ef380017ab0420b.html" />
+    <None Include="documentation\html\dir_bcbb2cf9a3d3d83e5515c82071a07177.html" />
+    <None Include="documentation\html\dir_cb221240da1b013652480fa4f73e3b8c.html" />
+    <None Include="documentation\html\dir_d77d23160fc50a96b69c3bb84703908b.html" />
+    <None Include="documentation\html\doxygen.css" />
+    <None Include="documentation\html\dynsections.js" />
+    <None Include="documentation\html\files.html" />
+    <None Include="documentation\html\functions.html" />
+    <None Include="documentation\html\functions_func.html" />
+    <None Include="documentation\html\functions_vars.html" />
+    <None Include="documentation\html\hierarchy.html" />
+    <None Include="documentation\html\index.html" />
+    <None Include="documentation\html\jquery.js" />
+    <None Include="documentation\html\structtag_b_i_t_m_a_p_f_i_l_e_h_e_a_d_e_r.html" />
+    <None Include="documentation\html\structtag_b_i_t_m_a_p_f_i_l_e_h_e_a_d_e_r-members.html" />
+    <None Include="documentation\html\structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r.html" />
+    <None Include="documentation\html\structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r-members.html" />
+    <None Include="documentation\html\tabs.css" />
+    <None Include="documentation\framework.html" />
+    <None Include="G53GRA.Framework.doxyfile" />
+  </ItemGroup>
+</Project>
